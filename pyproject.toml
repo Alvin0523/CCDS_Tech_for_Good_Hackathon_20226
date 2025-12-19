@@ -7,7 +7,14 @@ requires-python = ">=3.12"
 dependencies = [
     "langchain>=1.2.0",
     "langchain-community>=0.4.1",
+    "langchain-core>=1.2.2",
     "langchain-openai>=1.1.5",
+    "langchainhub>=0.1.21",
     "pygame>=2.6.1",
     "python-dotenv>=1.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
 ]
