@@ -163,6 +163,43 @@ wheels = [
 ]
 
 [[package]]
+name = "ccds-tech-for-good-2026"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "python-dotenv" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "ipykernel" },
+]
+langchain = [
+    { name = "langchain" },
+    { name = "langchain-community" },
+    { name = "langchain-core" },
+    { name = "langchain-openai" },
+    { name = "langchainhub" },
+]
+pygame = [
+    { name = "pygame" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "python-dotenv", specifier = ">=1.2.1" }]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ipykernel", specifier = ">=7.1.0" }]
+langchain = [
+    { name = "langchain", specifier = ">=1.2.0" },
+    { name = "langchain-community", specifier = ">=0.4.1" },
+    { name = "langchain-core", specifier = ">=1.2.2" },
+    { name = "langchain-openai", specifier = ">=1.1.5" },
+    { name = "langchainhub", specifier = ">=0.1.21" },
+]
+pygame = [{ name = "pygame", specifier = ">=2.6.1" }]
+
+[[package]]
 name = "certifi"
 version = "2025.11.12"
 source = { registry = "https://pypi.org/simple" }
@@ -833,39 +870,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/41/42/c178dcdc157b47333
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d8/1a/a84ed1c046deecf271356b0179c1b9fba95bfdaa6f934e1849dee26fad7b/langchain_text_splitters-1.1.0-py3-none-any.whl", hash = "sha256:f00341fe883358786104a5f881375ac830a4dd40253ecd42b4c10536c6e4693f", size = 34182, upload-time = "2025-12-14T01:15:37.382Z" },
 ]
-
-[[package]]
-name = "langchain-workshop"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "langchain" },
-    { name = "langchain-community" },
-    { name = "langchain-core" },
-    { name = "langchain-openai" },
-    { name = "langchainhub" },
-    { name = "pygame" },
-    { name = "python-dotenv" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "ipykernel" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "langchain", specifier = ">=1.2.0" },
-    { name = "langchain-community", specifier = ">=0.4.1" },
-    { name = "langchain-core", specifier = ">=1.2.2" },
-    { name = "langchain-openai", specifier = ">=1.1.5" },
-    { name = "langchainhub", specifier = ">=0.1.21" },
-    { name = "pygame", specifier = ">=2.6.1" },
-    { name = "python-dotenv", specifier = ">=1.2.1" },
-]
-
-[package.metadata.requires-dev]
-dev = [{ name = "ipykernel", specifier = ">=7.1.0" }]
 
 [[package]]
 name = "langchainhub"
