@@ -67,9 +67,9 @@ You should see (ccds-tech-for-good-2026) before the working directory in your te
 
 #### 8. Set Up Environment Variables
 - Rename the `.env.example` file to `.env`
-- Open `.env`and replace the AZURE_OPENAI_API_KEY with
+- Open `.env`and replace the Azure OpenAI API Key with
 ```
-API KEY
+c72e9614a1b54c38b836046ec01ec7de
 ```
 **DO NOT** push this API Key to Github<br>
 Always ensure `.env` is included in `.gitignore` before pushing to Github
