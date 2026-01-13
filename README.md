@@ -74,12 +74,39 @@ API KEY
 **DO NOT** push this API Key to Github<br>
 Always ensure `.env` is included in `.gitignore` before pushing to Github
 
+## Workshop Objectives
+
+By the end of this hackathon workshop, you will be able to:
+
+- Understand how to scrape data using **Beautiful Soup**
+- Build simple games and simulations using **Pygame**
+- Create AI-powered applications using **LangChain**
+- Manage Python dependencies using **uv**
+- Collaborate using **Git and GitHub**
 
 ## Project Structure 
 
-The repository is organized as follows:
+This repository is organised as follows:
 
-* **`src/Langchain/`**: Contains LangChain Workshop Notebook and Python logic for LLM integration.
-* **`src/PyGame/`**: Assets and notebook for the graphical interface and game logic.
-* **`src/resources/`**: Documentation
-* **`uv.lock` & `pyproject.toml`**: Dependency management using `uv`.
+```text
+CCDS_Tech_for_Good_Hackathon_2026/
+├── src/
+│   ├── beautiful_soup/     # Web scraping workshop resources
+│   ├── langchain/          # LangChain & chatbot workshop resources
+│   ├── pygame/             # Pygame workshop resources
+│   └── resources/          # uv setup and supporting materials
+│
+├── .env.example            # Example environment variables (API keys)
+├── .gitignore              # Git ignore rules
+├── .python-version         # Python version used for this project
+├── README.md               # Project documentation
+├── pyproject.toml          # Project configuration & dependencies
+└── uv.lock                 # Locked dependency versions (uv)
+```
+
+## More Resources
+
+- Beautiful Soup Documentation: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+- Pygame Documentation: https://www.pygame.org/docs/
+- LangChain Documentation: https://python.langchain.com/
+- uv Documentation: https://docs.astral.sh/uv/
